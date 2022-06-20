@@ -1,0 +1,460 @@
+
+
+
+
+
+/* HEADER GRID */
+/* HEADER GRID */
+/* HEADER GRID */
+
+.grid {
+    position: fixed;
+    height: 90px;
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 60px 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+    top: 2%;
+    left: 13%;
+    right: 13%;
+    z-index: 100;
+}
+
+.grid-item {
+    border: 1px solid blue;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a.grid-item:link {
+    font-family: 'Space Grotesk';
+    font-size: 13px;
+    color: blue;
+    line-height: 150%;
+    letter-spacing: -0.5px;
+}
+
+a.grid-item:hover {
+    background-color: blue;
+    color: #ffffff;
+}
+
+#item-1 {
+    text-align: center;
+    grid-column: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#item-2 {
+    grid-column: 2 / 11;
+    grid-row: 1;
+}
+
+#item-3 {
+    grid-column: 2 / 5;
+    grid-row: 2;
+}
+
+#item-4 {
+    grid-column: 5 / 8;
+    grid-row: 2;
+}
+
+#item-5 {
+    grid-column: 8 / 11;
+    grid-row: 2;
+}
+
+/* TEXT STYLES */
+/* TEXT STYLES */
+/* TEXT STYLES */
+
+
+h1{
+    font-size: 60px;
+    line-height: 110%;
+    font-family: 'Space Grotesk';
+    font-weight: 200;
+    text-align: justify;
+    letter-spacing: -5.5px;
+    color: blue;
+    text-shadow: 5px 5px #ffffff;
+}
+
+h2{
+    font-family: 'Space Grotesk';
+    color: blue;
+    line-height: 70%;
+    margin-top: -3px;
+    margin-bottom: -1px;
+    font-size: 45px;
+    letter-spacing: -1px;
+}
+
+h3{
+    font-family: 'Space Grotesk';
+    color: blue;
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    margin-top: -3px;
+    font-weight: 300;
+}
+
+h4{
+    font-family: 'Space Grotesk';
+    color: blue;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+    margin-top: -3px;
+    font-weight: 300;
+    text-align: justify;
+    hyphens: auto;
+}
+
+
+h5{
+    font-family: 'Space Grotesk';
+    font-size: 13px;
+    color:#ffffff;
+    text-align: center;
+    line-height: 0%;
+}
+
+h6{
+
+    font-family: 'Space Grotesk';
+    font-size: 13px;
+    background-color: blue;
+    color:#ffffff;
+    text-align: center;
+    line-height: 150%;
+}
+
+p{
+    font-family: 'Space Grotesk';
+    font-size: 13px;
+    color: blue;
+    text-align: center;
+    line-height: 150%;
+    letter-spacing: -0.5px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    font-style: italic;
+}
+
+/* INTRO SPACE */
+/* INTRO SPACE */
+/* INTRO SPACE */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    padding-bottom: 100px;
+    height:350vh;
+}
+
+
+.intro-text {
+    position: absolute;
+    top: 68%;
+    left: 13%;
+    right: 13%;
+    border-bottom-style: solid;
+    border-bottom-color: blue;
+    border-bottom-width: 3px;
+}
+
+.draggable-icon {
+    position: absolute;
+    display: block;
+    cursor:move;
+    text-align: center;
+}
+
+#sample-project {
+    position: absolute;
+    top: 20%;
+    left: 75%;
+}
+
+.draggable-window {
+    border: solid 3px blue;
+    position: absolute;
+    display: none;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#nav-bar {
+    height: 20px;
+    background-color: blue;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    cursor: move;
+}
+
+#window-area {
+    padding: 20px;
+}
+
+#window-01 {
+    top: 35%;
+    left: 35%;
+    width: 35%;
+    height: 250px;
+}
+
+/* PROJECT GRID */
+/* PROJECT GRID */
+/* PROJECT GRID */
+
+.project-grid {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 30px auto 65px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue; 
+    background-color: #ffffff;
+    position: absolute;
+}
+
+#tale-of-two {
+    top: 100%; 
+    left: 13%;
+    right: 13%;
+
+}
+
+#social-images {
+    top: 145%; 
+    left: 13%;
+    right: 13%;
+}
+
+#cam {
+    top: 210%; 
+    left: 13%;
+    right: 13%;
+}
+
+#huenited {
+    top: 255%; 
+    left: 13%;
+    right: 13%;
+}
+
+#project-5 {
+    top: 255%; 
+    right: 13%;
+}
+
+.project-grid-item-top {
+    border: 1px solid blue;
+    overflow: hidden;
+}
+
+.project-grid-item {
+    border: 1px solid blue;
+    padding: 10px;
+    vertical-align: top;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.project-grid-item-vertical {
+    border: 1px solid blue;
+    padding: 10px;
+    vertical-align: top;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.project-grid-item-horizontal {
+    border: 1px solid blue;
+    padding: 10px;
+    vertical-align: top;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+span {
+    vertical-align: 5%;
+}
+
+a.project-grid-item:link {
+    color:#ffffff;
+    font-family: 'Space Grotesk';
+    font-size: 25px;
+    line-height: 190%;
+}
+
+a.project-grid-item:hover {
+    background-color: blue;
+    color: #ffffff;
+}
+
+/* SCROLLBARS */
+/* SCROLLBARS */
+/* SCROLLBARS */
+
+.project-grid-item-vertical::-webkit-scrollbar {
+    width: 10px;
+  }
+
+.project-grid-item-vertical::-webkit-scrollbar-track {
+    border-left-style: solid; 
+    border-left-width: 2px;
+    border-left-color: blue;
+  }
+  
+.project-grid-item-vertical::-webkit-scrollbar-thumb {
+    background: blue; 
+  }
+
+.project-grid-item-vertical::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.project-grid-item-horizontal::-webkit-scrollbar {
+    width: 10px;
+    height:10px;
+  }
+
+.project-grid-item-horizontal::-webkit-scrollbar-track {
+    border-top-style: solid; 
+    border-top-width: 2px;
+    border-top-color: blue;
+  }
+.project-grid-item-horizontal::-webkit-scrollbar-thumb {
+    background: blue; 
+  }
+
+.project-grid-item-horizontal::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }  
+
+/* IMAGE FILTER */
+/* IMAGE FILTER */
+/* IMAGE FILTER */
+
+.monochrome-blue {
+    filter: brightness(108%) contrast(98%) url(#svgTint) url(#svgGradientMap)
+}
+
+.monochrome-blue:hover {
+    filter: none;
+}
+
+/* STICKERS */
+/* STICKERS */
+/* STICKERS */
+
+.sticker {
+    position: absolute;
+    animation: rotation 10s infinite linear;
+    z-index: 30;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+/* PROJECT PAGE STYLES */ 
+/* PROJECT PAGE STYLES */ 
+/* PROJECT PAGE STYLES */ 
+
+.whole-ass-project{
+    width: 75%;
+    margin-top: 14%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.words{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 100%;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-color: blue;
+}
+
+#details {
+    grid-column: 1;
+}
+
+#description {
+    grid-column: 2;
+    padding-left: 50px;
+}
+
+.project-images {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 5px;
+    row-gap: 5px;
+
+}
+
+ul {
+    margin-top: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+li {
+    padding-bottom: 5px;
+}
+
+ul li::before {
+    content: "→";
+    left: 0;
+}
+
+.more-projects {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 30px 65px;
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+    overflow: hidden;
+}
+
+
+/* FOOTER */
+/* FOOTER */
+/* FOOTER */
+
+footer{
+    position: fixed;
+    background-color: rgb(244, 249, 253);
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    padding-bottom: 20px;
+}
