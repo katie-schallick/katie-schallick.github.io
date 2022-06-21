@@ -122,6 +122,13 @@ a.grid-item:hover {
     }
 }
 
+@media only screen and (max-width: 450px){
+    .grid {
+        grid-template-columns: 90px auto auto auto;
+
+    }
+}
+
 /* TEXT STYLES */
 /* TEXT STYLES */
 /* TEXT STYLES */
@@ -237,6 +244,31 @@ a:hover {
 
 }
 
+
+@media only screen and (max-width: 450px){
+    h1{
+        font-size: 70px;
+        line-height: 80%;
+    }
+
+    h2{
+        font-size: 28px;
+        line-height: 120%;
+        padding-top: 5px;
+    }
+
+    h3 {
+        font-size: 16px;
+        padding-bottom: 0;
+    }
+
+    h4{
+        font-size: 9px;
+        hyphens: auto;
+    } 
+
+}
+
 /* INTRO SPACE */
 /* INTRO SPACE */
 /* INTRO SPACE */
@@ -259,19 +291,6 @@ body{
     border-bottom-style: solid;
     border-bottom-color: blue;
     border-bottom-width: 3px;
-}
-
-@media only screen and (max-width: 950px){
-    .intro-text {
-        position: absolute;
-        top: 68%;
-        left: 13%;
-        right: 13%;
-        border-bottom-style: solid;
-        border-bottom-color: blue;
-        border-bottom-width: 3px;
-    }
-
 }
 
 .draggable-icon {
@@ -328,6 +347,37 @@ body{
     border: none;
 }
 
+@media only screen and (max-width: 950px){
+    .intro-text {
+        position: absolute;
+        top: 68%;
+        left: 13%;
+        right: 13%;
+        border-bottom-style: solid;
+        border-bottom-color: blue;
+        border-bottom-width: 3px;
+    }
+
+}
+
+@media only screen and (max-width: 450px){
+    
+    body{
+        padding-bottom: 0px;
+        height:220vh;
+    }
+    
+    .intro-text {
+        top: 10%;
+        border-bottom-style: none;
+    } 
+
+    .draggable-icon {
+        display: none;
+    }
+
+}
+
 /* PROJECT GRID */
 /* PROJECT GRID */
 /* PROJECT GRID */
@@ -347,6 +397,7 @@ body{
     top: 100%; 
     left: 13%;
     right: 13%;
+    height:40%;
 
 }
 
@@ -354,23 +405,29 @@ body{
     top: 145%; 
     left: 13%;
     right: 13%;
+    height:60%;
 }
 
 #cam {
     top: 210%; 
     left: 13%;
     right: 13%;
+    height:40%;
 }
 
 #huenited {
     top: 255%; 
     left: 13%;
     right: 13%;
+    height:60%;
+    width: 35%; 
 }
 
 #project-5 {
     top: 255%; 
     right: 13%;
+    height:60%;
+    width: 35%; 
 }
 
 .project-grid-item-top {
@@ -441,6 +498,54 @@ a.project-grid-item:hover {
     }
 }
 
+@media only screen and (max-width: 450px){
+    
+    .project-grid {
+        grid-template-rows: 30px auto 45px;
+    }
+    
+    #tale-of-two {
+        top: 25%;
+        height: 30%; 
+    
+    }
+    
+    #social-images {
+        top: 60%; 
+        height:45%;
+    }
+    
+    #cam {
+        top: 110%; 
+        height:30%;
+    }
+    
+    #huenited {
+        top: 145%;
+        left: 13%;
+        right: 13%; 
+        height:30%;
+        width: 74%;
+
+    }
+    
+    #project-5 {
+        top: 180%;
+        left: 13%;
+        right: 13%; 
+        height:30%;
+        width: 74%;
+    }
+
+    a.project-grid-item:link {
+        color:#ffffff;
+        font-family: 'Space Grotesk';
+        font-size: 14px;
+        line-height: 100%;
+    }
+
+}
+
 /* SCROLLBARS */
 /* SCROLLBARS */
 /* SCROLLBARS */
@@ -503,6 +608,18 @@ a.project-grid-item:hover {
     z-index: 30;
 }
 
+#sticker-1 {
+    width:20%;
+    top: 20%;
+    left: 89%
+}
+
+#sticker-2 {
+    width:15%;
+    top: 55%;
+    left: -5%
+}
+
 @keyframes rotation {
     from {
       transform: rotate(0deg);
@@ -510,7 +627,21 @@ a.project-grid-item:hover {
     to {
       transform: rotate(359deg);
     }
-  }
+}
+
+@media only screen and (max-width: 450px){
+    #sticker-1 {
+        width: 45%;
+        top: -90%;
+        left: 60%
+    }
+
+    #sticker-2 {
+        width:35%;
+        top: 55%;
+        left: -15%
+    }
+}
 
 /* PROJECT PAGE STYLES */ 
 /* PROJECT PAGE STYLES */ 
@@ -619,6 +750,34 @@ ul li::before {
     }
 } 
 
+@media only screen and (max-width: 450px){
+
+    .whole-ass-project{
+        margin-top: 35%;
+    
+    }
+
+    .words{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 100px auto;
+        row-gap: -10px;
+    }
+    
+    #details {
+        grid-column: 1;
+        grid-row: 1 ;
+        height: 80px;
+    }
+    
+    #description {
+        grid-column: 1;
+        grid-row: 2 ;
+        padding-left: 0px;
+        padding-top: -30px;
+    }
+} 
+
 
 /* FOOTER */
 /* FOOTER */
@@ -632,6 +791,3 @@ footer{
     height: 30px;
     padding-bottom: 20px;
 }
-
-
-
