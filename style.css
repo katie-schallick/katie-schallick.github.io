@@ -364,11 +364,11 @@ body{
     
     body{
         padding-bottom: 0px;
-        height:220vh;
+        height:240vh;
     }
     
     .intro-text {
-        top: 30%;
+        top: 18%;
         border-bottom-style: none;
     } 
 
@@ -394,7 +394,7 @@ body{
 }
 
 #tale-of-two {
-    top: 110%; 
+    top: 130%; 
     left: 13%;
     right: 13%;
     height:40%;
@@ -504,23 +504,23 @@ a.project-grid-item:hover {
     }
     
     #tale-of-two {
-        top: 35%;
+        top: 45%;
         height: 30%; 
     
     }
     
     #social-images {
-        top: 70%; 
+        top: 80%; 
         height:45%;
     }
     
     #cam {
-        top: 120%; 
+        top: 130%; 
         height:30%;
     }
     
     #huenited {
-        top: 155%;
+        top: 165%;
         left: 13%;
         right: 13%; 
         height:30%;
@@ -529,7 +529,7 @@ a.project-grid-item:hover {
     }
     
     #project-5 {
-        top: 190%;
+        top: 200%;
         left: 13%;
         right: 13%; 
         height:30%;
