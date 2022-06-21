@@ -368,7 +368,7 @@ body{
     }
     
     .intro-text {
-        top: 12%;
+        top: 30%;
         border-bottom-style: none;
     } 
 
@@ -394,7 +394,7 @@ body{
 }
 
 #tale-of-two {
-    top: 100%; 
+    top: 110%; 
     left: 13%;
     right: 13%;
     height:40%;
@@ -402,21 +402,21 @@ body{
 }
 
 #social-images {
-    top: 145%; 
+    top: 155%; 
     left: 13%;
     right: 13%;
     height:60%;
 }
 
 #cam {
-    top: 210%; 
+    top: 220%; 
     left: 13%;
     right: 13%;
     height:40%;
 }
 
 #huenited {
-    top: 255%; 
+    top: 265%; 
     left: 13%;
     right: 13%;
     height:60%;
@@ -424,7 +424,7 @@ body{
 }
 
 #project-5 {
-    top: 255%; 
+    top: 265%; 
     right: 13%;
     height:60%;
     width: 35%; 
@@ -504,23 +504,23 @@ a.project-grid-item:hover {
     }
     
     #tale-of-two {
-        top: 30%;
+        top: 35%;
         height: 30%; 
     
     }
     
     #social-images {
-        top: 65%; 
+        top: 70%; 
         height:45%;
     }
     
     #cam {
-        top: 115%; 
+        top: 120%; 
         height:30%;
     }
     
     #huenited {
-        top: 150%;
+        top: 155%;
         left: 13%;
         right: 13%; 
         height:30%;
@@ -529,7 +529,7 @@ a.project-grid-item:hover {
     }
     
     #project-5 {
-        top: 185%;
+        top: 190%;
         left: 13%;
         right: 13%; 
         height:30%;
