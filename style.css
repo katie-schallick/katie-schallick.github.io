@@ -368,7 +368,7 @@ body{
     }
     
     .intro-text {
-        top: 10%;
+        top: 12%;
         border-bottom-style: none;
     } 
 
@@ -504,23 +504,23 @@ a.project-grid-item:hover {
     }
     
     #tale-of-two {
-        top: 25%;
+        top: 30%;
         height: 30%; 
     
     }
     
     #social-images {
-        top: 60%; 
+        top: 65%; 
         height:45%;
     }
     
     #cam {
-        top: 110%; 
+        top: 115%; 
         height:30%;
     }
     
     #huenited {
-        top: 145%;
+        top: 150%;
         left: 13%;
         right: 13%; 
         height:30%;
@@ -529,7 +529,7 @@ a.project-grid-item:hover {
     }
     
     #project-5 {
-        top: 180%;
+        top: 185%;
         left: 13%;
         right: 13%; 
         height:30%;
