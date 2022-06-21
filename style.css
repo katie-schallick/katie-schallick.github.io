@@ -466,7 +466,7 @@ span {
 }
 
 a.project-grid-item:link {
-    color:#ffffff;
+    color:blue;
     font-family: 'Space Grotesk';
     font-size: 25px;
     line-height: 190%;
@@ -491,7 +491,6 @@ a.project-grid-item:hover {
     }
     
     a.project-grid-item:link {
-        color:#ffffff;
         font-family: 'Space Grotesk';
         font-size: 15px;
         line-height: 130%;
@@ -538,7 +537,6 @@ a.project-grid-item:hover {
     }
 
     a.project-grid-item:link {
-        color:#ffffff;
         font-family: 'Space Grotesk';
         font-size: 14px;
         line-height: 100%;
