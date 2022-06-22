@@ -81,7 +81,6 @@ a.grid-item:hover {
         top: 2%;
         left: 13%;
         right: 13%;
-        z-index: 100;
     }
     
 
@@ -380,6 +379,16 @@ body{
         border-bottom-width: 3px;
     }
 
+    #window-03 {
+        top: 45%;
+        width: 40%;
+    }
+    
+    #window-04 {
+        top: 20%;
+        width: 50%;
+        height: 320px;
+    }
 }
 
 @media only screen and (max-width: 480px){
@@ -397,6 +406,15 @@ body{
     .draggable-icon {
         display: none;
     }
+
+    #window-03 {
+        display: none;
+    }
+
+    #window-04 {
+        display: none;
+    }
+
 
 }
 
