@@ -29,13 +29,11 @@
 
         <a class="grid-item" id="item-4" href="about/index.html" style="line-height: 210%;">about</a> 
 
-        <div class="grid-item" id="item-5">
-            <p style="text-align:left; line-height: 25%;">graphic designer</p>
-        </div> 
+        <a class="grid-item" id="item-5" href="mailto:katie.schallick@gmail.com?subject=Howdy! ☆ Let's chat!&body=Hi there! %0d%0a %0d%0a What's up? I just checked out your dope website and wanted to chat about your work. Does a coffee sound good? LMK! %0d%0a %0d%0a Cheers ☆ " style="line-height: 210%;">connect</a>
 
     </div>
 
-    <div style="background-color: white; height: 130px; position: fixed; width: 100%; z-index: 99; display: block; top:0; left:0;">
+    <div style="background-color: white; height: 130px; position: fixed; width: 100%; z-index: 400; display: block; top:0; left:0;">
     </div>
 
 </header>
@@ -46,21 +44,51 @@
     <!-- intro space -->
     <!-- intro space -->
     
-    <div class="draggable-icon" id="sample-project" onclick="document.getElementById('window-01').style.display='block'">
+    <div class="draggable-icon" id="icon-01" onclick="document.getElementById('window-01').style.display='block'">
        
         <img style="height:100px;" src="images/katieschallick_doc_icon.png"></img>
 
-        <a href="project-1/index.html"><h6 style="margin-top: 4px;">&nbsp;ABOUT-K...PROJ&nbsp; </h6></a>
+        <a href="project-1/index.html"><h6 style="margin-top: 4px;">&nbsp;CAT-SEL...PNG&nbsp; </h6></a>
 
     </div>
 
-    <div class="draggable-icon" id="polaroid" onclick="document.getElementById('window-02').style.display='block'">
+    <div class="draggable-icon" id="icon-02" onclick="document.getElementById('window-02').style.display='block'">
        
         <img style="height:100px;" src="images/katieschallick_doc_icon.png"></img>
 
         <h6 style="margin-top: 4px;">&nbsp;KATIE-CAT.PNG&nbsp;</h6>
 
     </div>
+
+    <div class="draggable-window" id="window-03">
+
+        <img src="images/close.png" style="height:8%; position: absolute; z-index: 10;" onclick="document.getElementById('window-03').style.display='none'"></img>
+
+        <div id="nav-bar">
+            <h5 style="margin-top: 10px;">ABOUT-KATIE.PROJ</h5>
+        </div>
+        
+        <div id="window-area">
+            <h2 style="font-size: 28px; font-weight: 300; line-height: 105%; text-align: justify;">Katie Schallick is a Graphic Designer livin’ and workin’ in Cincinnati, Ohio. She loves griddin’ it up in InDesign.</h2>
+        </div>
+
+    </div>
+
+    <div class="draggable-window" id="window-04">
+
+        <img src="images/close.png" style="height:4.2%; position: absolute; z-index: 10;" onclick="document.getElementById('window-04').style.display='none'"></img>
+
+        <div id="nav-bar">
+            <h5 style="margin-top: 10px;">THUMBS-UP.GIF</h5>
+        </div>
+        
+        <div class="monochrome-blue" id="window-area">
+            <img src="images/thumbs-up.gif" style="width:100%"></img>
+        </div>
+
+    </div>
+
+    <img class="sticker" id="sticker-3" src="images/ks_sticker.png"></img>  
 
     <div class="intro-text">
 
@@ -75,21 +103,13 @@
     
     <div class="draggable-window" id="window-01">
 
-        <img src="images/close.png" style="height:6.5%; position: absolute; z-index: 10; " onclick="document.getElementById('window-01').style.display='none'"></img>
-
-        <div id="nav-bar">
-            <h5 style="margin-top: 10px;">ABOUT-KATIE.PROJ</h5>
-        </div>
-        
-        <div id="window-area">
-            <h3 style="text-align: justify;">Katie Schallick is a Graphic Designer livin’ and workin’ in Cincinnati, Ohio. She loves griddin’ it up in InDesign, doting on her cat and keeping her bangs high ‘n tight. She is currently a freelance designer and open to new opportunities.</h3>
-        </div>
+        <img src="images/ks_catselfie.png" style="height: 100%;"></img>
 
     </div>
 
     <div class="draggable-window" id="window-02">
 
-        <img src="images/ks_portrait.png" style="height: 100%; z-index: 100;"></img>
+        <img src="images/ks_portrait.png" style="height: 100%;"></img>
 
     </div>
 
@@ -98,7 +118,7 @@
     <!-- project grid -->
     <!-- project grid -->
 
-    <div id="projects" style="position:absolute; top: 85%; height:40px"></div>
+    <div id="projects"></div>
 
     <div class="project-grid" id="tale-of-two">  
 

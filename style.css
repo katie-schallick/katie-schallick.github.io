@@ -19,7 +19,7 @@
     top: 2%;
     left: 13%;
     right: 13%;
-    z-index: 100;
+    z-index: 500;
 }
 
 .grid-item {
@@ -300,22 +300,21 @@ body{
     text-align: center;
 }
 
-#sample-project {
+#icon-01 {
     position: absolute;
     top: 20%;
-    left: 75%;
+    left: 80%;
 }
 
-#polaroid {
+#icon-02 {
     position: absolute;
     top: 35%;
-    left: 75.2%;
+    left: 80.2%;
 }
 
 .draggable-window {
     border: solid 3px blue;
     position: absolute;
-    display: none;
     overflow-y: scroll;
     overflow-x: hidden;
 }
@@ -334,17 +333,40 @@ body{
 }
 
 #window-01 {
-    top: 35%;
-    left: 35%;
+    top: 50%;
+    left: 57%;
     width: 35%;
-    height: 250px;
+    height: 300px;
+    display: none;
+    border: none;
+    z-index: 300;
 }
 
 #window-02 {
-    top: 45%;
-    left: 25%;
-    height: 250px;
+    top: 15%;
+    left: 55%;
+    height: 300px;
+    z-index: 120;
     border: none;
+    display: none;
+}
+
+#window-03 {
+    top: 42%;
+    left: 30%;
+    width: 32%;
+    height: 200px;
+    background-color: #ffffff;
+    z-index: 100;
+}
+
+#window-04 {
+    top: 15%;
+    left: 13%;
+    width: 40%;
+    height: 420px;
+    background-color: #ffffff;
+    z-index: 30;
 }
 
 @media only screen and (max-width: 950px){
@@ -382,6 +404,14 @@ body{
 /* PROJECT GRID */
 /* PROJECT GRID */
 
+#projects {
+
+    position:absolute;
+    top: 85%;
+    height:40px
+
+}
+
 .project-grid {
     display: grid;
     grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
@@ -394,7 +424,7 @@ body{
 }
 
 #tale-of-two {
-    top: 130%; 
+    top: 100%; 
     left: 13%;
     right: 13%;
     height:40%;
@@ -402,21 +432,21 @@ body{
 }
 
 #social-images {
-    top: 155%; 
+    top: 145%; 
     left: 13%;
     right: 13%;
     height:60%;
 }
 
 #cam {
-    top: 220%; 
+    top: 210%; 
     left: 13%;
     right: 13%;
     height:40%;
 }
 
 #huenited {
-    top: 265%; 
+    top: 255%; 
     left: 13%;
     right: 13%;
     height:60%;
@@ -424,7 +454,7 @@ body{
 }
 
 #project-5 {
-    top: 265%; 
+    top: 255%; 
     right: 13%;
     height:60%;
     width: 35%; 
@@ -499,6 +529,12 @@ a.project-grid-item:hover {
 
 @media only screen and (max-width: 480px){
     
+    
+    #projects {
+        top: 20%;
+        height:10px
+    }
+
     .project-grid {
         grid-template-rows: 30px auto 45px;
     }
@@ -616,6 +652,12 @@ a.project-grid-item:hover {
     width:15%;
     top: 55%;
     left: -5%
+}
+
+#sticker-3 {
+    width:12%;
+    top: 45%;
+    left: 14%
 }
 
 @keyframes rotation {
@@ -775,6 +817,27 @@ ul li::before {
         padding-top: -30px;
     }
 } 
+
+/* ABOUT */
+/* ABOUT */
+/* ABOUT */
+
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: auto auto 95px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue; 
+    background-color: #ffffff;
+    position: absolute;
+}
+
+.social-icons {
+    padding-right: 10px;
+    height: 55%;
+}
 
 
 /* FOOTER */
