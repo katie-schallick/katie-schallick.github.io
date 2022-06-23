@@ -278,7 +278,7 @@ html {
 
 body{
     padding-bottom: 100px;
-    height:350vh;
+    height:380vh;
 }
 
 
@@ -442,11 +442,25 @@ body{
 }
 
 #tale-of-two {
+    top: 100%;
+    right: 13%;
+    width: 45%;
+    height: 40%;
+}
+
+.ad-style {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+#skill-01 {
     top: 100%; 
     left: 13%;
-    right: 13%;
     height:40%;
-
+    width: 25%; 
 }
 
 #social-images {
@@ -459,8 +473,15 @@ body{
 #cam {
     top: 210%; 
     left: 13%;
+    height:40%;
+    width: 45%;
+}
+
+#skill-02 {
+    top: 210%; 
     right: 13%;
     height:40%;
+    width: 25%; 
 }
 
 #huenited {
@@ -525,6 +546,22 @@ a.project-grid-item:hover {
     color: #ffffff;
 }
 
+#homepage-footer {
+    position: absolute;
+    top: 370%;
+    left: 13%;
+    right: 13%;
+    margin-top: 0px;
+}
+
+#parting-words{
+    position: absolute;
+    top: 380%;
+    left: 13%;
+    right: 13%;
+    margin-top: 1px;
+}
+
 @media only screen and (max-width: 950px){
     
     .project-grid {
@@ -559,22 +596,35 @@ a.project-grid-item:hover {
     
     #tale-of-two {
         top: 45%;
-        height: 30%; 
-    
+        height: 30%;
+        width: 73%;
+    }
+
+    #skill-01 {
+        top:78%;
+        height: 30%;
+        width:73%;
     }
     
     #social-images {
-        top: 80%; 
+        top: 111%; 
         height:45%;
     }
     
     #cam {
-        top: 130%; 
+        top: 194%; 
         height:30%;
+        width: 73%;
+    }
+
+    #skill-02 {
+        top:160%;
+        height: 30%;
+        width: 73%;
     }
     
     #huenited {
-        top: 165%;
+        top: 228%;
         left: 13%;
         right: 13%; 
         height:30%;
@@ -583,7 +633,7 @@ a.project-grid-item:hover {
     }
     
     #project-5 {
-        top: 200%;
+        top: 262%;
         left: 13%;
         right: 13%; 
         height:30%;
@@ -594,6 +644,14 @@ a.project-grid-item:hover {
         font-family: 'Space Grotesk';
         font-size: 14px;
         line-height: 100%;
+    }
+
+    #homepage-footer {
+        top: 300%;
+    }
+    
+    #parting-words{
+        top: 308%;
     }
 
 }
@@ -690,7 +748,7 @@ a.project-grid-item:hover {
 @media only screen and (max-width: 480px){
     #sticker-1 {
         width: 45%;
-        top: -90%;
+        top: -160%;
         left: 60%
     }
 
@@ -698,6 +756,10 @@ a.project-grid-item:hover {
         width:35%;
         top: 55%;
         left: -15%
+    }
+
+    #sticker-3 {
+        display: none;
     }
 }
 
