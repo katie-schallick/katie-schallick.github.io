@@ -34,6 +34,7 @@ a.grid-item:link {
     color: blue;
     line-height: 150%;
     letter-spacing: -0.5px;
+    text-decoration: none;
 }
 
 a.grid-item:hover {
@@ -202,7 +203,7 @@ p{
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: blue;
 }
 
@@ -454,6 +455,11 @@ body{
     position: absolute;
 }
 
+#projects {
+    top: 85%;
+    height:10px
+}
+
 #tale-of-two {
     top: 100%;
     right: 13%;
@@ -552,6 +558,7 @@ a.project-grid-item:link {
     font-family: 'Space Grotesk';
     font-size: 25px;
     line-height: 190%;
+    text-decoration: none;
 }
 
 a.project-grid-item:hover {
@@ -977,6 +984,7 @@ ul li::before {
     grid-row: 1 / 4;
     overflow-y: hidden;
 }
+
 
 .social-icons {
     padding-right: 10px;
