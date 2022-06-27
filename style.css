@@ -268,6 +268,19 @@ a:hover {
 
 }
 
+/* PAGE STRUCTURE */
+/* PAGE STRUCTURE */
+/* PAGE STRUCTURE */
+
+section {
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+    width: 80%;
+    position: relative;
+}
+
 /* INTRO SPACE */
 /* INTRO SPACE */
 /* INTRO SPACE */
@@ -278,7 +291,7 @@ html {
 
 body{
     padding-bottom: 100px;
-    height:320vh;
+    height:325vh;
 }
 
 
@@ -548,18 +561,18 @@ a.project-grid-item:hover {
 
 #homepage-footer {
     position: absolute;
-    top: 320%;
+    top: 315%;
     left: 13%;
     right: 13%;
-    margin-top: 0px;
-}
-
-#parting-words{
-    position: absolute;
-    top: 330%;
-    left: 13%;
-    right: 13%;
-    margin-top: 1px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 30px 65px 20px;
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+    overflow: hidden;
 }
 
 @media only screen and (max-width: 950px){
