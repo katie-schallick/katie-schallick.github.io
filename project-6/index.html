@@ -1,0 +1,162 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../style.css" rel="stylesheet"/> 
+    <script src= "https://code.jquery.com/jquery-3.5.0.min.js"> </script>   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.Marquee/1.5.0/jquery.marquee.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Shrikhand|Space+Grotesk|VT323">
+    <title>obagi skincare</title>
+</head>
+
+<style>
+    body {
+        height:auto;
+    }
+    
+</style>
+
+<header>
+    
+    <div class="grid" id="header-baby">
+
+        <div class="grid-item" id="item-1" style="padding-top: 6px;">
+            <img style="height:90%;" src="../images/ks_logo.png"></img>
+        </div> 
+
+        <div class="grid-item" id="item-2" style="padding-top: 15px;">
+            <h2 style="line-height:90%;"><a href="../index.html" style="text-decoration: none;">katie schallick</a></h2>
+        </div> 
+
+        <a class="grid-item" id="item-3" href="../index.html#projects" style="line-height: 210%;">projects</a> 
+
+        <a class="grid-item" id="item-4" href="../about/index.html" style="line-height: 210%;">about</a> 
+
+        <a class="grid-item" id="item-5" href="mailto:katie.schallick@gmail.com?subject=Howdy! ☆ Let's chat!&body=Hi there! %0d%0a %0d%0a What's up? I just checked out your dope website and wanted to chat about your work. Does a coffee sound good? LMK! %0d%0a %0d%0a Cheers ☆ " style="line-height: 210%;">connect</a>
+
+    </div>
+
+    <div style="background-color: white; height: 130px; position: fixed; width: 100%; z-index: 400; display: block; top:0; left:0;">
+    </div>
+
+</header>
+
+<body>
+    <div class="whole-ass-project">
+
+        <h2 style="padding-bottom: 30px">cincynice</h2>
+        
+        <!-- project description -->
+        <div class="words">
+            <div id="details">
+                <h3><ul><li>&nbsp;Brand Creation</li>
+                    <li>&nbsp;Print Design</li>
+                    <li>&nbsp;Brand Management</li>
+                </ul></h3>
+            </div>
+            
+            <div id="description">
+                <h3>While working at BS LCC, we were challenged to design a system that captures the intended collaboration, creativity and party attitude of the 3-day CincyNice event during Cincinnati's BLINK. The result was a colorful system of modularity that allows for compositional freedom and typographic play while maintaining visual consistency.</h3>
+            </div>
+        </div>  
+
+        <!-- project images -->
+
+        <div class="project-images">
+            
+            <img style="width:100%; grid-column: 1 / 3;" src="images/katieschallick_cincynice_01.png"></img>
+
+            <img style="width:100%; grid-column: 1 / 3;" src="images/katieschallick_cincynice_03.png"></img>
+
+
+            <div id="left-column">
+                <img style="width:100%;" src="images/katieschallick_cincynice_04.png"></img> 
+
+            </div>
+
+            <div id="right-column">
+
+                <img style="width:100%;" src="images/katieschallick_cincynice_05.jpg"></img>
+
+            </div>
+
+            <img style="width:100%; grid-column: 1 / 3;" src="images/katieschallick_cincynice_02.png"></img>
+
+            <div id="left-column">
+                <img style="width:100%;" src="images/katieschallick_cincynice_06.jpg"></img> 
+
+            </div>
+
+            <div id="right-column">
+
+                <img style="width:100%;" src="images/katieschallick_cincynice_07.jpg"></img>
+
+            </div>
+
+
+
+        </div>
+        
+        <!-- end of project -->
+        <!-- end of project -->
+        <!-- end of project -->
+
+        <div class="more-projects">
+                
+            <div class="project-grid-item-top" style="grid-column: 1 / 3; grid-row: 1;">
+                    <div class="marquee-maybe">
+                        <h3 style="padding-top: 5px;">see more work ☆ see more work ☆ see more work ☆ see more work ☆ see more work ☆ see more work ☆ see more work ☆ see more work ☆ see more work ☆ see more work ☆ see more work ☆ see more work ☆ see more work ☆ see more work ☆ see more work ☆ see more work ☆ see more work ☆ see more work ☆ </h3>
+                    </div>
+            </div>    
+
+            <a href="../index.html" class="project-grid-item" style="grid-column: 1 / 2; grid-row: 2; overflow-y: hidden;"><span>⟵ </span>home</a>
+
+            <a href="../project-7/index.html" class="project-grid-item" style="grid-column: 2 / 3; grid-row: 2; overflow-y: hidden; text-align: right;">next project <span>⟶</span></a>
+
+        </div>
+
+    </div>
+
+
+    
+
+</body>
+
+<script>
+
+    //marquee
+    //marquee
+    //marquee
+
+    $(function() {
+      $('.marquee-maybe')
+        .marquee({
+          //If you wish to always animate using jQuery
+          allowCss3Support: true
+          , //works when allowCss3Support is set to true - for full list see http://www.w3.org/TR/2013/WD-css3-transitions-20131119/#transition-timing-function
+          css3easing: 'linear'
+          , //requires jQuery easing plugin. Default is 'linear'
+          easing: 'linear'
+          , //pause time before the next animation turn in milliseconds
+          delayBeforeStart: 0
+          , //'left', 'right', 'up' or 'down'
+          direction: 'left'
+          , //true or false - should the marquee be duplicated to show an effect of continues flow
+          duplicated: true
+          , //speed in milliseconds of the marquee in milliseconds
+          duration: 35000
+          , //gap in pixels between the tickers
+          gap: 0
+          , //on cycle pause the marquee
+          pauseOnCycle: false
+          , //on hover pause the marquee - using jQuery plugin https://github.com/tobia/Pause
+          pauseOnHover: true
+          , //the marquee is visible initially positioned next to the border towards it will be moving
+          startVisible: true
+        });
+    });
+
+</script>

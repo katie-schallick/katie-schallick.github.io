@@ -292,7 +292,7 @@ html {
 
 body{
     padding-bottom: 100px;
-    height:325vh;
+    height:435vh;
 }
 
 
@@ -518,6 +518,27 @@ body{
     width: 35%; 
 }
 
+#cincy-nice {
+    top: 320%; 
+    left: 13%;
+    right: 13%;
+    height:60%;
+}
+
+#skill-03 {
+    top: 385%; 
+    left: 13%;
+    height:40%;
+    width: 25%; 
+}
+
+#neuropulse {
+    top: 385%;
+    right: 13%;
+    width: 45%;
+    height: 40%;
+}
+
 .project-grid-item-top {
     border: 1px solid blue;
     overflow: hidden;
@@ -568,7 +589,7 @@ a.project-grid-item:hover {
 
 #homepage-footer {
     position: absolute;
-    top: 315%;
+    top: 425%;
     left: 13%;
     right: 13%;
     margin-top: 50px;
