@@ -525,11 +525,23 @@ body{
     height:60%;
 }
 
-#skill-03 {
+#skillsticker-01 {
     top: 385%; 
-    left: 13%;
-    height:40%;
-    width: 25%; 
+    left: 20%;
+    min-width: 200px;
+    width: 30%;
+    max-width: 360px;
+    z-index: 300;
+}
+
+#skillsticker-02 {
+    top: 408%; 
+    left: 10%;
+    min-width: 180px;
+    width: 25%;
+    max-width: 320px;
+    z-index: 300;
+    transform: rotate(10deg);
 }
 
 #neuropulse {
