@@ -678,7 +678,29 @@ a.project-grid-item:hover {
         left: 13%;
         right: 13%; 
         height:30%;
+        width: 73%;
+    }
+    
+    #skill-03 {
+        top: 296%; 
+        left: 13%;
+        height:30%;
+        width: 73%; 
+    }
+
+    #cincy-nice {
+        top: 330%; 
+        left: 13%;
+        right: 13%;
+        height:30%;
         width: 74%;
+    }
+    
+    #neuropulse {
+        top: 364%;
+        right: 13%;
+        width: 73%;
+        height: 30%;
     }
 
     a.project-grid-item:link {
@@ -688,11 +710,8 @@ a.project-grid-item:hover {
     }
 
     #homepage-footer {
-        top: 300%;
-    }
-    
-    #parting-words{
-        top: 308%;
+        top: 394%;
+        grid-template-rows: 30px 40px 20px;
     }
 
 }
