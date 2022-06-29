@@ -461,6 +461,15 @@ body{
 
 }
 
+/* MOBILE LANDSCAPE */
+@media only screen and (max-height: 400px){
+
+    .intro-text {
+        right: 13%;
+    } 
+
+}    
+
 /* PROJECT GRID */
 /* PROJECT GRID */
 /* PROJECT GRID */
