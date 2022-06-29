@@ -247,7 +247,7 @@ a:hover {
 
 @media only screen and (max-width: 480px){
     h1{
-        font-size: 70px;
+        font-size: 100px;
         line-height: 80%;
     }
 
@@ -413,7 +413,7 @@ body{
     }
     
     .intro-text {
-        top: 18%;
+        top: 10%;
         border-bottom-style: none;
     } 
 
@@ -507,7 +507,7 @@ body{
     width: 30%;
     max-width: 360px;
     z-index: 300;
-    transform: rotate(-4deg);
+    transform: rotate(-8deg);
 }
 
 #skillsticker-04 {
@@ -672,51 +672,44 @@ a.project-grid-item:hover {
     }
 
     #skillsticker-01 {
-        top: 78%; 
-        left: 28%;
-        min-width: 260px;
+        top: 73%; 
+        left: 10%;
+        min-width: 180px;
         width: 30%;
         max-width: 370px;
+        transform: rotate(-4deg);
     }
     
     #skillsticker-02 {
-        top: 87%; 
-        left: 10%;
+        top: 78%; 
+        left: 40%;
     }
     
     #social-images {
-        top: 100%; 
+        top: 95%; 
         height:45%;
     }
     
     #cam {
-        top: 175%; 
+        top: 165%; 
         height:30%;
         width: 73%;
     }
 
     #skillsticker-03 {
-        top: 148%; 
+        top: 139%; 
         left: 18%;
-        min-width: 290px;
-        width: 30%;
-        max-width: 360px;
-        z-index: 300;
-        transform: rotate(-4deg);
+        min-width: 220px;
     }
     
     #skillsticker-04 {
-        top: 142%; 
-        left: 50%;
-        min-width: 210px;
-        width: 25%;
-        max-width: 320px;
-        z-index: 300;
-        transform: rotate(10deg);
+        top: 135%; 
+        left: 47%;
+        min-width: 190px;
     }
     
     #huenited {
-        top: 210%;
+        top: 200%;
         left: 13%;
         right: 13%; 
         height:30%;
@@ -725,7 +718,7 @@ a.project-grid-item:hover {
     }
     
     #project-5 {
-        top: 245%;
+        top: 235%;
         left: 13%;
         right: 13%; 
         height:30%;
@@ -733,19 +726,19 @@ a.project-grid-item:hover {
     }
     
     #skillsticker-05 {
-        top: 278%; 
+        top: 264%; 
         left: 13%;
         min-width: 280px;
     }
     
     #skillsticker-06 {
-        top: 285%; 
+        top: 274%; 
         left: 23%;
-        min-width: 300px;
+        min-width: 260px;
     }
 
     #cincy-nice {
-        top: 313%; 
+        top: 307%; 
         left: 13%;
         right: 13%;
         height:30%;
@@ -753,7 +746,7 @@ a.project-grid-item:hover {
     }
     
     #neuropulse {
-        top: 347%;
+        top: 342%;
         right: 13%;
         width: 73%;
         height: 30%;
@@ -766,7 +759,7 @@ a.project-grid-item:hover {
     }
 
     #homepage-footer {
-        top: 376%;
+        top: 372%;
         grid-template-rows: 30px 40px 20px;
     }
 
@@ -863,9 +856,9 @@ a.project-grid-item:hover {
 
 @media only screen and (max-width: 480px){
     #sticker-1 {
-        width: 45%;
-        top: -160%;
-        left: 60%
+        width: 20%;
+        top: -170%;
+        left: 40%
     }
 
     #sticker-2 {
