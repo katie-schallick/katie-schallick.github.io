@@ -699,7 +699,8 @@ a.project-grid-item:hover {
     }
     
     #social-images {
-        top: 95%; 
+        top: 95%;
+        min-height: 250px; 
         height:45%;
     }
     
@@ -777,6 +778,76 @@ a.project-grid-item:hover {
     }
 
 }
+
+/* MOBILE LANDSCAPE */
+@media only screen and (max-height: 400px){
+
+    #tale-of-two {
+        top: 85%;
+        min-height: 250px;
+    }
+
+    #skillsticker-01 {
+        opacity: 0;
+    }
+    
+    #skillsticker-02 {
+        opacity: 0;
+    }
+    
+    #social-images {
+        top: 165%;
+        min-height: 250px; 
+    }
+    
+    #cam {
+        top: 245%; 
+        min-height: 250px; 
+    }
+
+    #skillsticker-03 {
+        opacity: 0;
+    }
+    
+    #skillsticker-04 {
+        opacity: 0;
+    }
+    
+    #huenited {
+        top: 325%;
+        min-height: 250px; 
+    }
+    
+    #project-5 {
+        top: 405%;
+        min-height: 250px; 
+    }
+    
+    #skillsticker-05 {
+        opacity: 0;
+    }
+    
+    #skillsticker-06 {
+        opacity: 0;
+    }
+
+    #cincy-nice {
+        top: 485%; 
+        min-height: 250px; 
+    }
+    
+    #neuropulse {
+        top: 565%;
+        min-height: 250px; 
+    }
+
+    #homepage-footer {
+        top: 630%;
+        grid-template-rows: 30px 40px 20px;
+    }
+
+
+}    
 
 /* SCROLLBARS */
 /* SCROLLBARS */
@@ -882,6 +953,16 @@ a.project-grid-item:hover {
 
     #sticker-3 {
         display: none;
+    }
+}
+
+/* MOBILE LANDSCAPE */
+@media only screen and (max-height: 400px){
+
+    #sticker-1 {
+        width: 20%;
+        top: -155%;
+        left: 85%
     }
 }
 
