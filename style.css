@@ -628,6 +628,18 @@ body{
     overflow-x: hidden;
 }
 
+.project-grid-item-link {
+    border: 1px solid blue;
+    padding: 10px;
+    vertical-align: top;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.project-grid-item-link:hover {
+    background-color: blue;
+}
+
 .project-grid-item-vertical {
     border: 1px solid blue;
     padding: 10px;
@@ -661,6 +673,14 @@ a.project-grid-item:link {
 a.project-grid-item:hover {
     background-color: blue;
     color: #ffffff;
+}
+
+a.project-grid-item-vertical:link {
+    text-decoration: none;
+}
+
+a.project-grid-item-vertical:hover {
+    font-style: normal;
 }
 
 #homepage-footer {
