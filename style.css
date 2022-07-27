@@ -358,6 +358,7 @@ body{
     position: absolute;
     overflow-y: scroll;
     overflow-x: hidden;
+    cursor: move;
 }
 
 #nav-bar {
@@ -366,7 +367,6 @@ body{
     display: inline-block;
     vertical-align: top;
     width: 100%;
-    cursor: move;
 }
 
 #window-area {
@@ -505,6 +505,18 @@ body{
     height: 40%;
 }
 
+.skillsticker-wiggle:hover {
+    animation: tilt-shaking 0.25s infinite;
+}
+
+@keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(1deg); }
+    50% { transform: rotate(0eg); }
+    75% { transform: rotate(-1deg); }
+    100% { transform: rotate(0deg); }
+  }
+
 #skillsticker-01 {
     top: 101%; 
     left: 20%;
@@ -521,7 +533,6 @@ body{
     width: 25%;
     max-width: 320px;
     z-index: 300;
-    transform: rotate(10deg);
 }
 
 #social-images {
@@ -545,7 +556,6 @@ body{
     width: 30%;
     max-width: 360px;
     z-index: 300;
-    transform: rotate(-8deg);
 }
 
 #skillsticker-04 {
@@ -555,7 +565,6 @@ body{
     width: 25%;
     max-width: 320px;
     z-index: 300;
-    transform: rotate(10deg);
 }
 
 #huenited {
@@ -586,7 +595,6 @@ body{
     min-width: 200px;
     width: 30%;
     max-width: 360px;
-    transform: rotate(-4deg);
     z-index: 300;
 }
 
@@ -596,7 +604,6 @@ body{
     min-width: 180px;
     width: 25%;
     max-width: 340px;
-    transform: rotate(10deg);
     z-index: 300;
 }
 
