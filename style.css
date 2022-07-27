@@ -616,6 +616,7 @@ body{
 
 .project-grid-item-top {
     border: 1px solid blue;
+    background-color: blue;
     overflow: hidden;
 }
 
